@@ -9,10 +9,10 @@ let jekyll_env = bundlerEnv rec {
     };
 in
 stdenv.mkDerivation rec {
-  name = "nathan.gs";
+  name = "adamschaefers.com";
   buildInputs = [ jekyll_env bundler ruby ];
 
   # shellHook = ''
-  #     exec ${jekyll_env}/bin/jekyll serve --watch
+  #     exec ${jekyll_env}/bin/jekyll serve --watch --incremental
   #   '';
 }
