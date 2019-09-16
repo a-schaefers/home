@@ -1,4 +1,12 @@
-_site/
-.sass-cache/
-.jekyll-cache/
-.jekyll-metadata
+pom.xml
+pom.xml.asc
+*jar
+/lib/
+/classes/
+/target/
+/checkouts/
+.lein-deps-sum
+.lein-repl-history
+.lein-plugins/
+.lein-failures
+/public/
